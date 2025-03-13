@@ -16,11 +16,12 @@ p {
 }
 
 .fa {
-  padding: 45px;
-  font-size: 35px;
-  width: 35px;
-  text-decoration: none;
+    padding: 20px;
+  font-size: 30px;
+  width: 30px;
   text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
   
 }
 .fa:hover {
@@ -46,7 +47,7 @@ p {
 .container {
             display: flex;
             flex-direction: column;
-            text-align: center;
+            align-items: center;
         }
 .button {
             background-color: #ac7861;
