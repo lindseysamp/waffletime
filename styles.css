@@ -52,6 +52,26 @@ p {
   color: #c7d6ed;
   text-align: center;
 }
+.container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+.button {
+            background-color: #ffb3d9;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+.button:hover {
+            background-color: #e8bcd2;
+        }
 
 #main {
     /* ____ */
