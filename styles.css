@@ -14,9 +14,24 @@ li ul, li ol {margin:0;}
 ul {list-style-type:disc;}
 ol {list-style-type:decimal;}
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color:#1a3e78;
+}
 
 /* Sections */
-header {
+#header {
 font-family: 'Courier New', monospace;
 }
 
