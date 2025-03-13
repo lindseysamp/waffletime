@@ -3,6 +3,7 @@ body {
 }
 h1 {
   text-align: center;
+  font-family: 'Courier New', monospace;
   color: blue;
 }
 p {
@@ -27,7 +28,7 @@ p {
 
 /* Sections */
 #header {
-font-family: 'Courier New', monospace;
+  /* ____ */
 }
 
 #main {
