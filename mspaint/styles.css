@@ -1,1 +1,235 @@
 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v10/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+  outline: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  letter-spacing: -.3px;
+  font-size: 11.4px;
+  color: black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  letter-spacing: inherit;
+  font-size: inherit;
+}
+
+main {
+  /*min-height: 592px;*/
+  min-width: 578px;
+  resize: both;
+  overflow: auto;
+}
+
+img.reference {
+  height: 595.8px;
+  margin-left: 16px;
+}
+
+.win-bg {
+  background-color: #d3cfc7;
+}
+
+.win-border {
+  border-style: outset;
+  border-color: #f3f8fc #b3b1ac #b3b1ac #f3f8fc;
+  border-width: .8px;
+  padding: 3px;
+  box-shadow:
+    0.7px 0.7px 0px black,
+    inset -0.5px -0.5px 0px #7A7A7B,
+    inset 0.5px 0.5px 0px #eeedea;
+}
+
+.win-border-inset {
+  border-bottom: 1px solid #D5D1C9;
+  border-right: 1px solid #D5D1C9;
+  box-shadow:
+    inset 0.8px 0.8px 0px black,
+    -0.5px -0.5px 0px #7A7A7B,
+    0.5px 0.5px 0px #eeedea;
+}
+
+.window {
+  display: flex;
+}
+
+.header .header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Ubuntu';
+  letter-spacing: -.5px;
+  box-sizing: border-box;
+  padding: 2px;
+  width: 100%;
+  height: 20px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to right, #002867, #a9cae5);
+}
+
+.header .header__tabs {
+  display: flex;
+  border-bottom: 1px outset #f7f7f7;
+}
+
+.header .header__tab {
+  padding: 4px;
+}
+
+.header .header__tab::first-letter {
+  text-decoration: underline;
+}
+
+.header__title {
+  display: flex;
+  max-height: 20px;
+  align-items: center;
+}
+
+.header__icon {
+  font-size: 9px;
+  text-align: left;
+  font-weight: bold;
+  padding: 1px;
+  margin: 0;
+  color: black;
+  width: 14px;
+  height: 14px;
+}
+
+.content {
+  width: 100%;
+  height: 93%;
+}
+
+.content .content__middle {
+  width: 100%;
+  display: flex;
+  background: #7f7f7f;
+}
+
+.footer {
+  box-sizing: border-box;
+  border-top: 1px outset #f7f7f7;
+  width: 100%;
+  padding: 8px 2px 0px 2px;
+}
+
+.footer .footer__inner {
+  margin-bottom: 8px;
+}
+
+.footer__bottom {
+  display: flex;
+}
+
+.footer__bottom div {
+  width: 22%;
+  margin-right: 4px;
+}
+
+.footer__bottom :first-child {
+  padding: 4px 2px;
+  width: 50%;
+}
+
+.tools {
+  width: 57px;
+  height: 470px;
+}
+
+.tools .tools__box {
+  padding: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools .tools__tool {
+  width: 24px;
+  height: 24px;
+  background-size: 20px;
+  background-position: 1px 2px;
+}
+
+.tools__tool.tools__tool--selected {
+  border-bottom: 1px solid #D5D1C9;
+  border-right: 1px solid #D5D1C9;
+  box-shadow:
+    inset 1.5px 1.5px 0px black,
+    -0.5px -0.5px 0px #7A7A7B,
+    0.5px 0.5px 0px #eeedea;
+}
+
+.tools__tool.tools__tool--pencil {
+  background-image: url('pencil.png');
+}
+
+.palette {
+  display: flex;
+}
+
+.palette__selected {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  background-size: 25px;
+  background-image: url('pattern.png');
+}
+
+.palette__selected .palette__color {
+  position: absolute;
+  background-color: white;
+  border-style: outset;
+  border-color: #c8c5be;
+  border-width: 1px;
+  box-shadow:
+    inset -0.5px -0.5px 0px #7A7A7B,
+    -0.5px -0.5px 0px #eeedea;
+}
+
+.palette__selected :first-child {
+  position: absolute;
+  z-index: 1;
+  right: 34%;
+  top: 14%;
+}
+
+.palette__selected :last-child {
+  position: absolute;
+  right: 10%;
+  top: 36%;
+  z-index: 0;
+}
+
+.palette__colors {
+  width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.palette__color {
+  margin: 1px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+}
+
+canvas {
+  height: 455px;
+  margin: 4px;
+  background: white;
+  resize: both;
+}
