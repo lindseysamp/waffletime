@@ -16,12 +16,12 @@ p {
 }
 
 .fa {
-  padding: 50px;
-  font-size: 40px;
-  width: 40px;
+  padding: 45px;
+  font-size: 35px;
+  width: 35px;
   text-align: center;
   text-decoration: none;
-  border-radius: 60%;
+  border-radius: 50%;
   border: 3px;
   text-align: center; 
 }
