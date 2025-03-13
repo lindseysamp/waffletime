@@ -4,16 +4,16 @@ body {
 h1 {
   text-align: center;
   font-family: 'Courier New', monospace;
-  color: blue;
+  color: #332b16;
 }
 
 h2 {
   text-align: center;
   font-family: 'Courier New', monospace;
-  color: white;
+  color: #332b16;
 }
 p {
-  color: red;
+  color: #332b16;
 }
 
 .fa {
@@ -29,19 +29,19 @@ p {
 }
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
-  color:#1a3e78;
+  background: #ac7861;
+  color:#332b16;
 }
 
 /* Instagram */
 .fa-instagram {
-  background: #55ACEE;
-  color:#1a3e78;
+  background: #ac7861;
+  color:#332b16;
 }
 /* Tumblr */
 .fa-tumblr {
-  background: #55ACEE;
-  color:#1a3e78;
+  background: #ac7861;
+  color:#332b16;
 }
 /* Sections */
 #header {
@@ -49,7 +49,7 @@ p {
   font-size: 40px;
   width: 40px;
   border-radius: 10%;
-  color: #c7d6ed;
+  color: #ac7861;
   text-align: center;
 }
 .container {
@@ -58,7 +58,7 @@ p {
             align-items: center;
         }
 .button {
-            background-color: #ffb3d9;
+            background-color: #ac7861;
             color: white;
             padding: 15px 30px;
             margin: 10px;
@@ -70,7 +70,7 @@ p {
             transition: background-color 0.3s;
         }
 .button:hover {
-            background-color: #e8bcd2;
+            background-color: #332b16;
         }
 
 #main {
