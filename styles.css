@@ -6,6 +6,12 @@ h1 {
   font-family: 'Courier New', monospace;
   color: blue;
 }
+
+h2 {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  color: white;
+}
 p {
   color: red;
 }
