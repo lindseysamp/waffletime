@@ -35,7 +35,10 @@ p {
 
 /* Sections */
 #header {
-  /* ____ */
+  padding: 30px;
+  font-size: 40px;
+  width: 40px;
+  border-radius: 10%;
 }
 
 #main {
