@@ -44,6 +44,13 @@ p {
   background: #ac7861;
   color:#332b16;
 }
+fa-box {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 500px;
+  align-items: center;
+}
 
 .container {
             display: flex;
