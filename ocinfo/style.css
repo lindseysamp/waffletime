@@ -1,1 +1,109 @@
+body {
+  background-color: #feede7;
+}
+h1 {
+  font-family: 'Courier New', monospace;
+  color: #332b16;
+}
 
+h2 {
+  font-family: 'Courier New', monospace;
+  color: #332b16;
+}
+p {
+  font-family: 'Courier New', monospace;
+  color: #332b16;
+}
+
+.fa {
+  padding: 45px;
+  font-size: 35px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: 3px;
+  text-align: center; 
+}
+.fa:hover {
+  opacity: 0.7;
+}
+/* Twitter */
+.fa-twitter {
+  background: #ac7861;
+  color:#332b16;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #ac7861;
+  color:#332b16;
+}
+/* Tumblr */
+.fa-tumblr {
+  background: #ac7861;
+  color:#332b16;
+}
+
+.container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+.button {
+            background-color: #ac7861;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+.button:hover {
+            background-color: #332b16;
+        }
+/* Sections */
+.topnav {
+  overflow: hidden;
+  background-color: #aa7863;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #332b16;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #fceee8;
+  color: black;
+}
+
+#header {
+  font-size: 40px;
+  color: #ac7861;
+  
+}
+
+#main {
+    /* ____ */
+}
+
+#footer {
+    /* ____ */
+}
+
+
+/* Custom Classes */
+.top {margin-top:0;padding-top:0;}
+.right {float:right !important;}
+.bottom {margin-bottom:0;padding-bottom:0;}
+.left {float:left !important;}
